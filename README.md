@@ -1,6 +1,6 @@
 Each directory contains an R script with the same name as the folder. The subdirectory data/ typically contains any required input data and (often) a .RData file containing the R environment after the script has run. See comments in each R file for details. 
 
-### runDESeq
+## runDESeq
 Find genes in RNA-Seq data that are differentially expressed in IPF versus Normal conditions using DESeq.
 
 ## runDEXSeq
