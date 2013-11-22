@@ -9,3 +9,5 @@ Find exonic regions in RNA-Seq data that are differentially used in IPF versus N
 ## runMicroarrayComparison
 Download microarray data from GEO, find differentially expressed genes, and compare to RNA-Seq data.
 
+## runGwasEnrichment
+Determine whether GWAS genes are enriched for differential expression.
