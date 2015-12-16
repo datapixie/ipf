@@ -184,6 +184,7 @@ save.image("data/GSE32537.RData")
 
 ####################################
 # compare to RNASeq DE genes from DESeq
+setwd("~/Dropbox/ipf/ipf/runMicroarrayComparison/")
 load("data/GSE24206.RData")
 load("data/GSE32537.RData")
 
@@ -225,4 +226,6 @@ check_probes_agree <- function(sig){
 check_probes_agree(sig24206)
 check_probes_agree(sig32537)
 
+
+mywrite(overlap, "data/overlap.txt")
 #######
